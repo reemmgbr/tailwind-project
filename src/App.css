@@ -1,0 +1,10 @@
+/* FONT */
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/NotoKufiArabic-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+}
