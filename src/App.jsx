@@ -11,7 +11,7 @@ import FormGooglesheet from "./Components/FormGooglesheet";
 
 function App() {
   return (
-    <>
+    <div className=" overflow-hidden">
       <Navbar />
       <Hero />
       <HowItWork />
@@ -21,7 +21,7 @@ function App() {
       <Blog />
       <FormGooglesheet />
       <Footer />
-    </>
+    </div>
   );
 }
 

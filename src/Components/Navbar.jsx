@@ -110,7 +110,7 @@ function Navbar() {
                 <button
                   key={link.name}
                   onClick={() => scrollTo(link.id)}
-                  className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-red-500 relative group transition-colors duration-200"
+                  className="px-3 py-2 text-sm font-medium text-black hover:text-red-500 relative group transition-colors duration-200"
                 
                 >
                   {link.name}

@@ -45,7 +45,7 @@ function Hero() {
     },
     {
       icon: "fa-solid fa-plane",
-      title: "Air Travel",
+      title: " Travel",
       description: "30 Flights",
       delay: 300,
     },
