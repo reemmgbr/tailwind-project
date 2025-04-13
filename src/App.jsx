@@ -7,7 +7,7 @@ import Counter from "./Components/Counter";
 import Blog from "./Components/Blog";
 import Footer from "./Components/Footer";
 import Explore from "./Components/Explore";
-
+import FormGooglesheet from "./Components/FormGooglesheet";
 
 function App() {
   return (
@@ -15,11 +15,11 @@ function App() {
       <Navbar />
       <Hero />
       <HowItWork />
-      <Explore/>
+      <Explore />
       <Reviews />
       <Counter />
       <Blog />
-    
+      <FormGooglesheet />
       <Footer />
     </>
   );
